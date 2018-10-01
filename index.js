@@ -15,7 +15,7 @@ const createWindow = () => {
   });
 
   // loads the initial file
-  win.loadURL("https://saavn.com/");
+  win.loadURL("https://electronjs.org/");
 
   win.on("closed", () => {
     // Dereference the window object, usually you would store windows
